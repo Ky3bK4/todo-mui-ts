@@ -37,9 +37,6 @@ const TodoItem: FC<ITodoItemProps> = ({
     deleteTodo(todo.id);
   };
 
-  // mb: 2,
-  //   minWidth: { xs: "100%", sm: "400px" },
-  // width: "100%",
   const handleEdit = () => {
     setEditMode(true);
   };
